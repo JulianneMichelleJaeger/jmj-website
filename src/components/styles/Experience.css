@@ -1,0 +1,117 @@
+#experience {
+    height: 100vh;
+    display: flex;
+}
+
+#experience-title-container {
+    background-image: url('../../assets/sunset-blue.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 54vw;
+    padding-top: 25vh;
+}
+
+#experience-title-container h1 {
+    font-family: "Cherry Swash", serif;
+    font-size: 120px;
+    color: #fff;
+    margin: auto;
+    pointer-events: none;
+}
+
+#experience .nav-item {
+    background-color: #e36f8cc9;
+}
+
+#experience .nav-item:hover {
+    background-color: #e36f8c;
+}
+
+#experience-info-container {
+    background: linear-gradient(0deg, #19199743 0%, #19199713 5%, #fff 10%, #fff 25%, #fff 50%, #fff 75%, #fff 100%);
+    width: 46vw;
+    padding: 40px 80px;
+    overflow-y: scroll;
+}
+
+#experience ::-webkit-scrollbar {
+    display: none;
+}
+
+#experience-info-container h2 {
+    font-family: "Cherry Swash", serif;
+    color: #e36f8c;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#experience-info-container h3 {
+    font-family: "Century Gothic", serif;
+    color: #191997;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#experience-info-container p {
+    font-family: "Ebrima", sans-serif;
+    text-align: left;
+    color: #23114f;
+    line-height: 22px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 1380px) {
+    #experience-title-container h1 {
+        font-size: 90px;
+    }
+}
+
+@media(max-width: 1161px) {
+    #experience-title-container {
+        background-size: 120%;
+    }
+    #experience-title-container h1 {
+        font-size: 70px;
+    }
+}
+
+@media(max-width: 997px) {
+    #experience-title-container {
+        background-size: 150%;
+    }
+    #experience-title-container h1 {
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 832px) {
+    #experience {
+        display: block;
+        height: auto;
+    }
+    #experience-title-container {
+        background-size: 100%;
+        width: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    #experience-title-container h1 {
+        font-size: 120px;
+    }
+    #experience-info-container {
+        width: auto;
+        overflow-y: visible;
+    }
+}
+
+@media(max-width: 650px) {
+    #experience-title-container h1 {
+        font-size: 90px;
+    }
+}

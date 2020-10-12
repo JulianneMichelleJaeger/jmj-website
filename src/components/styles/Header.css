@@ -92,3 +92,30 @@
 #header .nav-item:hover {
     background-color: #e36f8c;
 }
+
+@media(max-width: 616px) {
+    #header {
+        height: 110vh;
+    }
+    #title-subtitle-container {
+        display: block;
+    }
+    #title-container {
+        margin: auto;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    #subtitle-container {
+        margin: auto;
+        padding-top: 5px;
+    }
+    #navbar {
+        margin-top: 60px;
+    }
+}
+
+@media(max-height: 675px) {
+    #header {
+        height: 110vh;
+    }
+}

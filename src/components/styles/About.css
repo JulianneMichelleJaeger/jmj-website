@@ -28,8 +28,13 @@
 }
 
 #info-container {
+    background: linear-gradient(0deg, #e36f8c53 0%, #e36f8c23 5%, #fff 10%, #fff 25%, #fff 50%, #fff 75%, #fff 100%);
     width: 46vw;
     padding: 40px 80px;
+}
+
+#about ::-webkit-scrollbar {
+    display: none;
 }
 
 #juli {
@@ -55,7 +60,7 @@
 }
 
 #info-container p {
-    font-family: "Century Gothic", sans-serif;
+    font-family: "Ebrima", sans-serif;
     text-align: left;
     color: #23114f;
     line-height: 22px;
@@ -106,6 +111,7 @@
 @media(max-width: 832px) {
     #about {
         display: block;
+        height: auto;
     }
     #about-title-container {
         background-size: 100%;

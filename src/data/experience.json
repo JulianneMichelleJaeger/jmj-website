@@ -1,0 +1,26 @@
+[
+    {
+        "position": "Associate Software Engineer II",
+        "company": "Mosaic Learning",
+        "timeframe": "June 2019 - Present",
+        "description": "Implement software solutions to create new features and fix defects for multiple projects using ReactJS, Ember.js, Node.js, SQL, HTML, and CSS. Work with designers and product owners to obtain all necessary assets and specifications for each task. Use version control technologies such as Git and Bitbucket for code collaboration."
+    },
+    {
+        "position": "Quality Assurance Intern",
+        "company": "Mosaic Learning",
+        "timeframe": "November 2018 - June 2019",
+        "description": "Wrote and modified automated test cases for multiple projects using the Robot framework, Selenium, jQuery, and Python. Ran automated regression tests for multiple projects. Delegated tasks to and reviewed code of fellow interns regarding automation work. Worked with developers to create tests for ReactJS and Node.js projects."
+    },
+    {
+        "position": "Webmaster",
+        "company": "Kappa Kappa Psi Iota Delta",
+        "timeframe": "May 2017 - May 2018",
+        "description": "Created and maintained a chapter website, including keeping all information up to date and running a site blog. Maintained chapter social media accounts, including SnapChat, Instagram, and Facebook. Worked with fellow chapter officers to create flyers for fundraisers and other chapter events."
+    },
+    {
+        "position": "Website Assistant",
+        "company": "Brisco Apparel",
+        "timeframe": "June 2017 - August 2017",
+        "description": "Helped maintain website functionality and aesthetics using HTML and CSS. Conducted analytics on website traffic and purchase history. Conducted SEO keyword research for new products. Worked with fellow employees to execute tasks and obtain input on new ideas."
+    }
+]
