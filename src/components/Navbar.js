@@ -5,21 +5,31 @@ function Navbar() {
     return(
         <div id="navbar">
             <ul id="navbar-container">
-                <li className="nav-item">
-                    About
-                </li>
-                <li className="nav-item">
-                    Experience
-                </li>
-                <li className="nav-item">
-                    Education
-                </li>
-                <li className="nav-item">
-                    Skills
-                </li>
-                <li className="nav-item">
-                    Contact
-                </li>
+                <a href="#about">
+                    <li className="nav-item">
+                        About
+                    </li>
+                </a>
+                <a href="#experience">
+                    <li className="nav-item">
+                        Experience
+                    </li>
+                </a>
+                <a href="#education">
+                    <li className="nav-item">
+                        Education
+                    </li>
+                </a>
+                <a href="#skills">
+                    <li className="nav-item">
+                        Skills
+                    </li>
+                </a>
+                <a href="#contact">
+                    <li className="nav-item">
+                        Contact
+                    </li>
+                </a>
             </ul>
         </div>
     );

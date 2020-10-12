@@ -6,8 +6,6 @@
 
 .nav-item {
     display: inline-block;
-    color: #ffffffc9;
-    background-color: #e36f8cc9;
     box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
     border-radius: 100%;
     font-family: 'Cherry Swash', sans-serif;
@@ -21,8 +19,15 @@
 }
 
 .nav-item:hover {
-    color: #ffffff;
-    background-color: #e36f8c;
     box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
     transition: .2s ease;
+}
+
+#navbar-container a {
+    color: #ffffffc9;
+    text-decoration: none;
+}
+
+#navbar-container a:hover {
+    color: #ffffff;
 }
