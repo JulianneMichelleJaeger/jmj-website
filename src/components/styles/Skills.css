@@ -1,0 +1,124 @@
+#skills .title-container {
+    background-image: url('../../assets/sugarloaf-mtn-blue.png');
+}
+
+#skills .nav-item {
+    background-color: #e36f8cc9;
+}
+
+#skills .nav-item:hover {
+    background-color: #e36f8c;
+}
+
+#skills .info-container {
+    background: linear-gradient(0deg, #19199743 0%, #19199713 5%, #fff 10%, #fff 25%, #fff 50%, #fff 75%, #fff 100%);
+}
+
+#skills .info-container h2 {
+    color: #e36f8c;
+    margin-bottom: 10px;
+}
+
+#skills .info-container h3 {
+    color: #191997;
+    font-size: 14px;
+}
+
+.category-container {
+    margin-bottom: 20px;
+}
+
+.items-container {
+    display: flex;
+}
+
+.items-1-container {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.items-2-container {
+    width: 50%;
+}
+
+.level {
+    float: right;
+    color: #23114f23;
+    pointer-events: none;
+}
+
+.level .filled {
+    color: #23114f;
+}
+
+@media(max-width: 1385px) {
+    #skills .info-container h3 {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1216px) {
+    #skills .info-container h3 {
+        font-size: 19px;
+    }
+
+    .items-container {
+        display: block;
+    }
+
+    .items-1-container {
+        width: 100%;
+    }
+    
+    .items-2-container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1216px) {
+    #skills .info-container h3 {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 832px) {
+    #skills .info-container h3 {
+        font-size: 16px;
+    }
+
+    .items-container {
+        display: flex;
+    }
+
+    .items-1-container {
+        width: 50%;
+    }
+    
+    .items-2-container {
+        width: 50%;
+    }
+}
+
+@media(max-width: 816px) {
+    #skills .info-container h3 {
+        font-size: 19px;
+    }
+
+    .items-container {
+        display: block;
+    }
+
+    .items-1-container {
+        width: 100%;
+    }
+    
+    .items-2-container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 560px) {
+    #skills .info-container h3 {
+        font-size: 14px;
+    }
+}

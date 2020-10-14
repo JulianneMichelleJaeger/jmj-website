@@ -1,0 +1,200 @@
+[
+    {
+        "name": "Languages / Frameworks",
+        "items1": [
+            {
+                "name": "HTML",
+                "level": 5
+            },
+            {
+                "name": "CSS",
+                "level": 5
+            },
+            {
+                "name": "SCSS/SASS",
+                "level": 5
+            },
+            {
+                "name": "JSON",
+                "level": 5
+            },
+            {
+                "name": "Javascript",
+                "level": 5
+            },
+            {
+                "name": "JQuery",
+                "level": 5
+            },
+            {
+                "name": "Command Line Interface",
+                "level": 5
+            },
+            {
+                "name": "ReactJS",
+                "level": 4
+            },
+            {
+                "name": "Ember.js",
+                "level": 4
+            },
+            {
+                "name": "Object-Oriented Programming",
+                "level": 4
+            },
+            {
+                "name": "Bootstrap",
+                "level": 3
+            }
+        ],
+        "items2": [
+            {
+                "name": "Wordpress",
+                "level": 3
+            },
+            {
+                "name": "Node.js",
+                "level": 3
+            },
+            {
+                "name": "Express.js",
+                "level": 3
+            },
+            {
+                "name": "Java",
+                "level": 3
+            },
+            {
+                "name": "SQL",
+                "level": 3
+            },
+            {
+                "name": "MySQL",
+                "level": 3
+            },
+            {
+                "name": "GraphQL",
+                "level": 3
+            },
+            {
+                "name": "AngularJS",
+                "level": 2
+            },
+            {
+                "name": "Vue.js",
+                "level": 2
+            },
+            {
+                "name": "PHP",
+                "level": 2
+            },
+            {
+                "name": "Laravel",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "name": "Tools / Programs",
+        "items1": [
+            {
+                "name": "Windows",
+                "level": 5
+            },
+            {
+                "name": "Linux",
+                "level": 5
+            },
+            {
+                "name": "Microsoft Office",
+                "level": 5
+            },
+            {
+                "name": "Notepad++",
+                "level": 5
+            },
+            {
+                "name": "Visual Studio Code",
+                "level": 5
+            },
+            {
+                "name": "Google Chrome",
+                "level": 5
+            },
+            {
+                "name": "Firefox",
+                "level": 5
+            },
+            {
+                "name": "Git",
+                "level": 5
+            },
+            {
+                "name": "Github",
+                "level": 5
+            },
+            {
+                "name": "BitBucket",
+                "level": 5
+            },
+            {
+                "name": "Atlassian / Jira",
+                "level": 5
+            },
+            {
+                "name": "Confluence",
+                "level": 5
+            }
+        ],
+        "items2": [
+            {
+                "name": "Agile",
+                "level": 5
+            },
+            {
+                "name": "Mac",
+                "level": 4
+            },
+            {
+                "name": "Microsoft Edge",
+                "level": 4
+            },
+            {
+                "name": "Safari",
+                "level": 4
+            },
+            {
+                "name": "Internet Explorer",
+                "level": 4
+            },
+            {
+                "name": "Adobe Photoshop",
+                "level": 4
+            },
+            {
+                "name": "SEO",
+                "level": 4
+            },
+            {
+                "name": "Google Analytics",
+                "level": 4
+            },
+            {
+                "name": "Adobe Illustrator",
+                "level": 3
+            },
+            {
+                "name": "Docker",
+                "level": 3
+            },
+            {
+                "name": "VirtualBox",
+                "level": 3
+            },
+            {
+                "name": "Adobe InDesign",
+                "level": 2
+            }
+        ]
+    }
+]

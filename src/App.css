@@ -44,7 +44,7 @@ html {
   font-size: 23px;
   text-align: left;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .info-container p {
@@ -52,6 +52,7 @@ html {
   color: #23114f;
   line-height: 22px;
   font-size: 17px;
+  margin-top: 0;
 }
 
 @media(max-width: 1161px) {

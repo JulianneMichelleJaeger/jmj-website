@@ -132,13 +132,13 @@
     }
 }
 
-@media(max-height: 800px) {
+@media(max-width: 500px) and (max-height: 800px) {
     #header {
         height: 115vh;
     }
 }
 
-@media(max-height: 675px) {
+@media(max-width: 500px) and (max-height: 675px) {
     #header {
         height: 130vh;
     }
