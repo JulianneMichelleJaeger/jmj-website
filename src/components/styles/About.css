@@ -1,22 +1,5 @@
-#about {
-    height: 100vh;
-    display: flex;
-}
-
-#about-title-container {
+#about .title-container {
     background-image: url('../../assets/israel-tree-pink.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 54vw;
-    padding-top: 25vh;
-}
-
-#about-title-container h1 {
-    font-family: "Cherry Swash", serif;
-    font-size: 120px;
-    color: #fff;
-    margin: auto;
-    pointer-events: none;
 }
 
 #about .nav-item {
@@ -27,14 +10,8 @@
     background-color: #191997;
 }
 
-#info-container {
+#about .info-container {
     background: linear-gradient(0deg, #e36f8c53 0%, #e36f8c23 5%, #fff 10%, #fff 25%, #fff 50%, #fff 75%, #fff 100%);
-    width: 46vw;
-    padding: 40px 80px;
-}
-
-#about ::-webkit-scrollbar {
-    display: none;
 }
 
 #juli {
@@ -51,25 +28,15 @@
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-#info-container h2 {
-    font-family: "Cherry Swash", serif;
+#about .info-container h2 {
     color: #191997;
-    font-size: 40px;
-    text-align: left;
-    margin-bottom: 0;
-}
-
-#info-container p {
-    font-family: "Ebrima", sans-serif;
-    text-align: left;
-    color: #23114f;
-    line-height: 22px;
-    font-size: 17px;
 }
 
 #download {
     background-color: #191997;
     color: #fff;
+    display: block;
+    width: 260px;
     box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 10px;
@@ -77,7 +44,7 @@
     font-size: 24px;
     text-align: center;
     padding: 10px 20px;
-    margin-top: 40px;
+    margin: 40px auto 0 auto;
     transition: .2s ease;
     cursor: pointer;
 }
@@ -90,37 +57,8 @@
     border: none;
 }
 
-@media(max-width: 1214px) {
-    #info-container {
-        overflow-y: scroll;
-    }
-}
-
-@media(max-width: 1161px) {
-    #about-title-container {
-        background-size: 120%;
-    }
-}
-
-@media(max-width: 997px) {
-    #about-title-container {
-        background-size: 150%;
-    }
-}
-
-@media(max-width: 832px) {
-    #about {
-        display: block;
-        height: auto;
-    }
-    #about-title-container {
-        background-size: 100%;
-        width: auto;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    }
-    #info-container {
-        width: auto;
-        overflow-y: visible;
+@media(max-width: 450px) {
+    #download {
+        margin-bottom: 40px;
     }
 }

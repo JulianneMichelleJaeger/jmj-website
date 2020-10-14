@@ -14,12 +14,12 @@ function Experience() {
         );
     })
     return(
-        <div id="experience">
-            <div id="experience-title-container">
+        <div id="experience" className="section">
+            <div className="title-container">
                 <h1>Experience</h1>
                 <Navbar />
             </div>
-            <div id="experience-info-container">
+            <div className="info-container">
                 {experienceItems}
             </div>
         </div>

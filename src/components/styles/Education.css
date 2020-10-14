@@ -1,23 +1,5 @@
-#education {
-    height: 100vh;
-    display: flex;
-}
-
-#education-title-container {
+#education .title-container {
     background-image: url('../../assets/great-falls-pink.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100%;
-    width: 54vw;
-    padding-top: 25vh;
-}
-
-#education-title-container h1 {
-    font-family: "Cherry Swash", serif;
-    font-size: 120px;
-    color: #fff;
-    margin: auto;
-    pointer-events: none;
 }
 
 #education .nav-item {
@@ -28,90 +10,54 @@
     background-color: #191997;
 }
 
-#education-info-container {
+#education .info-container {
     background: linear-gradient(0deg, #e36f8c43 0%, #e36f8c13 5%, #fff 10%, #fff 25%, #fff 50%, #fff 75%, #fff 100%);
-    width: 46vw;
-    padding: 40px 80px;
-    overflow-y: scroll;
 }
 
 #education ::-webkit-scrollbar {
     display: none;
 }
 
-#education-info-container h2 {
-    font-family: "Cherry Swash", serif;
+#education .info-container h2 {
     color: #191997;
-    font-size: 40px;
-    text-align: left;
-    margin-bottom: 0;
 }
 
-#education-info-container h3 {
-    font-family: "Century Gothic", serif;
+#education .info-container h3 {
     color: #e36f8c;
-    font-size: 23px;
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#education-info-container p {
-    font-family: "Ebrima", sans-serif;
-    text-align: left;
-    color: #23114f;
-    line-height: 22px;
-    font-size: 17px;
-    margin-top: 10px;
-    margin-bottom: 40px;
 }
 
 @media(max-width: 1380px) {
-    #education-title-container h1 {
+    #education .title-container h1 {
         font-size: 90px;
     }
 }
 
 @media(max-width: 1161px) {
-    #education-title-container {
-        background-size: 120%;
-    }
-    #education-title-container h1 {
+    #education .title-container h1 {
         font-size: 70px;
     }
 }
 
 @media(max-width: 997px) {
-    #education-title-container {
-        background-size: 150%;
-    }
-    #education-title-container h1 {
+    #education .title-container h1 {
         font-size: 60px;
     }
 }
 
 @media(max-width: 832px) {
-    #education {
-        display: block;
-        height: auto;
-    }
-    #education-title-container {
-        background-size: 100%;
-        width: auto;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    }
-    #education-title-container h1 {
+    #education .title-container h1 {
         font-size: 120px;
-    }
-    #education-info-container {
-        width: auto;
-        overflow-y: visible;
     }
 }
 
 @media(max-width: 650px) {
-    #education-title-container h1 {
+    #education .title-container h1 {
         font-size: 90px;
+    }
+}
+
+@media(max-width: 450px) {
+    #education .title-container h1 {
+        font-size: 70px;
     }
 }

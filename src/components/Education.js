@@ -14,12 +14,12 @@ function Education() {
         );
     })
     return(
-        <div id="education">
-            <div id="education-title-container">
+        <div id="education" className="section">
+            <div className="title-container">
                 <h1>Education</h1>
                 <Navbar />
             </div>
-            <div id="education-info-container">
+            <div className="info-container">
                 {educationItems}
             </div>
         </div>

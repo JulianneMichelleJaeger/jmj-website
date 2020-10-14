@@ -5,12 +5,12 @@ import resume from '../assets/resume.pdf';
 
 function About() {
     return(
-        <div id="about">
-            <div id="about-title-container">
+        <div id="about" className="section">
+            <div className="title-container">
                 <h1>About</h1>
                 <Navbar />
             </div>
-            <div id="info-container">
+            <div className="info-container">
                 <div id="juli"></div>
                 <h2>Hello!</h2>
                 <p>My name is Julianne Jaeger, and I am a web and software engineer located in Silver Spring, Maryland.</p>
