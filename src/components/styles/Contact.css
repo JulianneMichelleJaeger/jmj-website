@@ -1,0 +1,46 @@
+#contact .title-container {
+    background-image: url('../../assets/israel-tree-pink.png');
+}
+
+#contact .nav-item {
+    background-color: #191997c9;
+}
+
+#contact .nav-item:hover {
+    background-color: #191997;
+}
+
+#contact .info-container {
+    background: linear-gradient(0deg, #e36f8c53 0%, #e36f8c23 5%, #fff 10%, #fff 25%, #fff 50%, #fff 75%, #fff 100%);
+}
+
+#contact .info-container h2 {
+    color: #191997;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+
+#contact .info-container h3 {
+    color: #e36f8c;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: .2s ease;
+}
+
+#contact .info-container h3:hover {
+    opacity: 1;
+    transition: .2s ease;
+}
+
+#contact .info-container a {
+    text-decoration: none;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}

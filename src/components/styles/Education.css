@@ -26,6 +26,10 @@
     color: #e36f8c;
 }
 
+#education .info-container p {
+    margin-bottom: 60px;
+}
+
 @media(max-width: 1380px) {
     #education .title-container h1 {
         font-size: 90px;
