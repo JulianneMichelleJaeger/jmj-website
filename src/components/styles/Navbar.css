@@ -40,7 +40,8 @@
         padding-top: 0;
     }
     #header #navbar-container {
-        padding-top: 100px;
+        padding-top: 60px;
+        padding-bottom: 40px;
     }
     .nav-item {
         width: 80px;

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Cherry+Swash&display=swap');
 
+@font-face {
+  font-family: "Century Gothic";
+  src: url('./assets/fonts/Century\ Gothic\ 400.ttf');
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -42,7 +47,7 @@ html {
 }
 
 .info-container h3 {
-  font-family: Century Gothic, serif;
+  font-family: "Century Gothic", serif;
   font-size: 23px;
   text-align: left;
   margin-top: 0;
