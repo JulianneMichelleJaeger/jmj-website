@@ -1,5 +1,6 @@
 #experience .title-container {
     background-image: url('../../assets/sunset-blue.png');
+    background-position: center;
 }
 
 #experience .nav-item {
